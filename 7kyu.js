@@ -23,5 +23,6 @@ function divisors(integer) {
   return holder
 };
 
-// Optimized Solution
+
+
 
