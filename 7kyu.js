@@ -59,3 +59,19 @@ function martingale(bank, outcomes)
  */
 
 
+
+function capitalize(s){
+  return s.split('').reduce((acc, curr, i) => {
+    if (i % 2 === 0){
+      acc[0] += curr.toUpperCase()
+      acc[1] += curr
+    } else {
+      acc[1] += curr.toUpperCase()
+      acc[0] += curr 
+    }
+    return acc
+  }, ["",""])
+};
+
+//  This one was fun.  I treated it as a "must get on first try"
+//  problem and was successful.  Nice.
