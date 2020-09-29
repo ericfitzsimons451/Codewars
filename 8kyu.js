@@ -98,3 +98,12 @@ return arr.reduce((sum, curr) => {
   return sum
 }, 0)
 }
+
+
+var summation = function (num) {
+  let holder = 0
+  for(let i = 1; i < num + 1; i++) {
+    holder += i
+  }
+  return holder
+}
