@@ -107,3 +107,10 @@ var summation = function (num) {
   }
   return holder
 }
+
+
+// find the numbers that are divisible by the given divisor
+
+function divisibleBy(numbers, divisor) {
+  return numbers.filter(n => n % divisor === 0)
+}
