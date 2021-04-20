@@ -1,5 +1,5 @@
 // This will create a chess board with blanks and hashes
-
+////
 
 function chessboard() {
   let a = " "
